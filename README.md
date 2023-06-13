@@ -42,22 +42,30 @@ insmod schutting.ko
 ### Gebruik
 Schrijf naar het apparaat net zoals je naar elk ander bestand zou schrijven. Hier is een voorbeeld:
 
-```echo "Hallo, wereld!" > /dev/schutting```
+```
+echo "Hallo, wereld!" > /dev/schutting
+```
 
 De bovenstaande opdracht zal geen fouten geven, maar de string "Hallo, wereld!" wordt nergens opgeslagen. Het is "over de schutting gegooid"!
 
 Of nog leuker, move gewoon ff je hele /etc folder over de schutting als een echte 1337 haxx0r:
-```mv /etc /dev/schutting/```
+```
+mv /etc /dev/schutting/
+```
 
 
 
 ### Verwijderen
 Verwijder de module als volgt:
-```sudo rmmod schutting```
+```
+sudo rmmod schutting
+```
 
 Daarna kan je de build-artefacten opschonen:
 
-```make clean```
+```
+make clean
+```
 
 
 ### Nog een disclosure dan
