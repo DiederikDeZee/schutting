@@ -17,7 +17,7 @@ Dit is een voorbeeld van een Linux-karakterapparaatdriver die fungeert als onze 
 1. Clone de repository en ga de map in:
 ```
 git clone git@github.com:DiederikDeZee/schutting.git
-cd schutting-driver
+cd schutting
 ```
 
 2. Maak een bestand genaamd `Makefile` met de volgende inhoud:
