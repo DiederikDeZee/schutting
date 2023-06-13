@@ -16,7 +16,7 @@ Dit is een voorbeeld van een Linux-karakterapparaatdriver die fungeert als onze 
 #### Installatie
 1. Clone de repository en ga de map in:
 ```
-git clone https://github.com/yourusername/schutting-driver.git
+git clone git@github.com:DiederikDeZee/schutting.git
 cd schutting-driver
 ```
 
