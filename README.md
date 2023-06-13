@@ -15,8 +15,10 @@ Dit is een voorbeeld van een Linux-karakterapparaatdriver die fungeert als onze 
 
 #### Installatie
 1. Clone de repository en ga de map in:
-```git clone https://github.com/yourusername/schutting-driver.git
-cd schutting-driver```
+```
+git clone https://github.com/yourusername/schutting-driver.git
+cd schutting-driver
+```
 
 2. Maak een bestand genaamd `Makefile` met de volgende inhoud:
 ```
@@ -29,9 +31,11 @@ clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 ```
 
-2. Compileer en laad de kernel module in: 
-```make
-insmod schutting.ko```
+3. Compileer en laad de kernel module in: 
+```
+make
+insmod schutting.ko
+```
 
 
 
