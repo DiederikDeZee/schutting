@@ -1,0 +1,3 @@
+#!/bin/sh
+mknod /dev/schutting c schutting 0
+exit 0
